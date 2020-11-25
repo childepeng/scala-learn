@@ -7,20 +7,23 @@ package cc.laop.base
   */
 object Start03 {
 
+  def func(f: String => Unit) = f("Hello")
 
   def main(args: Array[String]): Unit = {
 
-    var str = "hello"
+    func(println)
 
-    print(str)
-
-    var tup = ("Lucy", 12)
-    print(tup._1)
-    print(tup._2)
-
-    var (name, age) = tup
-    print(name)
-    print(age)
+    //var str = "hello"
+    //
+    //print(str)
+    //
+    //var tup = ("Lucy", 12)
+    //print(tup._1)
+    //print(tup._2)
+    //
+    //var (name, age) = tup
+    //print(name)
+    //print(age)
   }
 
 
