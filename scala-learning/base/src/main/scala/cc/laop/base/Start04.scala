@@ -10,15 +10,3 @@ class Ta
 class Tb extends Ta
 
 class Start04[C](c: C)
-
-
-object Test {
-  def main(args: Array[String]): Unit = {
-    var a = new Ta
-    var b = new Tb
-
-    var c = new Start04[Ta](a)
-    var d = new Start04[Ta](b)
-  }
-
-}
