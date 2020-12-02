@@ -34,11 +34,11 @@ object IoTest {
     //      .foreach(println(_))
 
     var s = "sef"
-    s.synchronized()
-    s.notify()
+    //    s.synchronized()
+    //    s.notify()
   }
 
-  def func: Unit = synchronized() {
+  def func: Unit = synchronized {
 
   }
 }
